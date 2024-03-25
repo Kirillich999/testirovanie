@@ -1,0 +1,33 @@
+@media (max-width:1440px) {
+
+
+}
+
+@media (max-width:1200px) {
+
+    .text_info1 {
+        font-size: 4vw;
+        width: 50%;
+    }
+}
+
+
+@media (max-width:900px) {
+
+    .footer_contact_text_about {
+        width: 60%;
+    } 
+}
+
+
+@media (max-width:540px) {
+
+    
+}
+
+
+
+@media (max-width:370px) {
+
+    
+}

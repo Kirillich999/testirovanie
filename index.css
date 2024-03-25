@@ -1,0 +1,223 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(254, 251, 241);
+}
+
+.header_nav ul {
+    display: flex;
+    
+    justify-content: center;
+    gap: 40px   ;
+    
+}
+.header_nav_link {
+    color: rgb(112, 52, 18);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+
+}
+
+#about_text {
+    padding: 120px 280px 123px 72px;
+    background-color:rgb(254, 251, 241) ;
+}
+.text_about_general {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text_info {
+    color: rgb(112, 52, 18);
+
+font-size: 11px;
+font-weight: 400;
+line-height: 44px;
+
+
+}
+
+.text_info:hover {
+    font-size: 40px;
+    transition: 2s;
+
+}
+
+.text_info1 {
+    color: rgb(112, 52, 18);
+
+font-size: 80px;
+font-weight: 400;
+line-height: 88px;
+margin-top: 21px;
+width: 848px;
+
+}
+
+#cartoon_information {
+    padding: 0px 72px 122px 72px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 251, 241);
+
+
+}
+
+.cartoon_information_main {
+    margin-bottom: 193px;
+}
+.cartoon_information_text {
+    color: rgb(112, 52, 18);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 41.6px;
+
+}
+
+
+.cartoon_information_image {
+    display: flex;
+   flex-wrap: wrap;
+   column-gap: 60px;
+   row-gap: 90px ;
+   
+   
+    
+}
+.image_main {
+    margin-left: -30px;
+    /* animation: image 3s ease-in-out; */
+   transition: box-shadow 2s ease-in-out;
+}
+
+
+.image_main:hover {
+ 
+    width: 20vw;
+    box-shadow: 0px 0px 10px rgba(198, 18, 18, 0.651);
+    
+ 
+   /* border: 10px solid ; */
+}
+
+
+
+/* @keyframes image {
+0% { margin-left: 0px; height: 20px; width: 20px;}
+100% {margin-left: 200px; height: 50px; width: 50vw;}
+
+} */
+
+
+.text_cartoon {
+    color: rgb(112, 52, 18);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+width: 283px;
+
+}
+
+.text_cartoon_info {
+    color: rgba(112, 52, 18, 0.72);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 1.6px;
+margin-top: 11px;
+}
+
+
+
+
+#footer {
+    padding: 120px 96px 26px 72px;
+    background-color: rgb(8, 73, 53);
+}
+
+.footer_contact_text {
+    color: rgb(255, 255, 255);
+
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 1.6px;
+
+}
+
+.footer_contact_text_about {
+    color: rgb(255, 255, 255);
+    
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    width: 711px;
+  margin-top: 24px;
+}
+
+.footer_contact_text_about a {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+
+.footer_address {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.footer_adress_text {
+    color: rgba(255, 255, 255, 0.72);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+
+.footer_bio {
+    margin-top: 101px;
+}
+
+.footer_bio p {
+    color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+
+
+
+.line::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.16);
+    top: 3280px;
+    left: 0px;
+   
+    
+
+   
+}
+
+
