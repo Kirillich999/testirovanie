@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 #header {
     padding-top: 20px;
@@ -69,12 +70,14 @@ width: 848px;
     display: flex;
     flex-direction: column;
     background-color: rgb(254, 251, 241);
+    row-gap: 90px;
+
 
 
 }
 
 .cartoon_information_main {
-    margin-bottom: 193px;
+    margin-bottom: 100px;
 }
 .cartoon_information_text {
     color: rgb(112, 52, 18);
@@ -86,19 +89,25 @@ line-height: 41.6px;
 }
 
 
+
 .cartoon_information_image {
     display: flex;
-   flex-wrap: wrap;
-   column-gap: 60px;
-   row-gap: 90px ;
+   flex-wrap: wrap; 
+   justify-content: space-between;
    
-   
+  
+ 
     
 }
+
+
+
+
 .image_main {
     margin-left: -30px;
     /* animation: image 3s ease-in-out; */
    transition: box-shadow 2s ease-in-out;
+   width: 100%;
 }
 
 
@@ -106,7 +115,7 @@ line-height: 41.6px;
  
     width: 20vw;
     box-shadow: 0px 0px 10px rgba(198, 18, 18, 0.651);
-    
+    transition: 2s;
  
    /* border: 10px solid ; */
 }
@@ -141,7 +150,9 @@ margin-top: 11px;
 }
 
 
-
+footer {
+    background-color:rgb(8, 73, 53); ;
+}
 
 #footer {
     padding: 120px 96px 26px 72px;
@@ -206,18 +217,19 @@ line-height: 24px;
 
 
 
+
 .line::after {
     content: "";
     height: 1px;
     width: 100%;
-    position: absolute;
     background-color: rgba(255, 255, 255, 0.16);
-    top: 3280px;
-    left: 0px;
-   
-    
-
-   
+   /* display: inline-block;
+   margin-top: 81px;
+margin-left: -100px; */
+position: absolute;
+top: 3168px;
+   left: 0px;
+   right: 0px;
+ 
 }
-
 
